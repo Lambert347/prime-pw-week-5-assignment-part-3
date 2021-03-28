@@ -104,7 +104,7 @@ function addToCollection(title, artist, yearPublished, tracks) {
   return album;
 }
 
-//Adds the corresponding title, artist, year published, and the corresponding tracks array to array using the above addToCollection function. Prints the result to the console log. 
+//Adds the corresponding title, artist, year published, and the corresponding tracks array to array using the above addToCollection function. Prints the result to the console log.
 console.log(addToCollection('The Great War', 'Sabaton', '2019', tracksGreat));
 console.log(addToCollection('Appeal to Reason', 'Rise Against', '2008', tracksReason));
 console.log(addToCollection('Star Eater', 'Daniel Deluxe', '2015', tracksEater));
@@ -186,6 +186,7 @@ function search(artist, year, trackName) {
 //The console log will return the Artist name and track name since it is present in the array called collection.
 console.log(search('Rise Against', '2008', 'Long Forgotten Sons'));
 console.log(search('Absofacto', '2015', 'History Books'));
+console.log(search('I the Mighty', '2015', 'Psychomachia'));
 
 //The search function will return an empty array of search results since nothing by Ray Charles is present in the collection.
 console.log(search('Ray Charles', '1957'));
